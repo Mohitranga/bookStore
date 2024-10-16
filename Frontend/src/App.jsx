@@ -5,7 +5,7 @@ import Courses from "./courses/Courses";
 import BookSearch from "./courses/BookSearch";
 import Signup from "./components/Signup";
 import Contact from "./contact/Contact";
-import About from "./about/About";
+import About from "@/about/About";
 import Addbook from "./components/Addbook";
 import { Toaster } from "react-hot-toast";
 import { useAuth } from "./context/AuthProvider";
