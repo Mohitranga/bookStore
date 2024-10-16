@@ -22,7 +22,7 @@ const Addbook = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:4001/book/submit", formData);
+      const response = await axios.post("https://bookstoreapp-xn5w.onrender.com/book/submit", formData);
       console.log(response.data);
       alert("Form submitted successfully!");
       setFormData({
