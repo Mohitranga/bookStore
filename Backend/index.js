@@ -8,7 +8,11 @@ import userRoute from "./route/user.route.js";
 
 const app = express();
 
-app.use(cors());
+app.use(cors(
+    {
+        option:"*",
+    }
+));
 app.use(express.json());
 
 dotenv.config();
